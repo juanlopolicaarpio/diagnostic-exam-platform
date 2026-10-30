@@ -1,8 +1,33 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Generated reports and exports
+reports
+exports
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment — never commit real credentials
+.env
+.env.*
+!.env.example
+*.local
+
+# Supabase CLI local state
+supabase/.temp
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
 Thumbs.db
-*.log
-.env*
-!.env.example
-private-notes/
-exports/
-data/
+*.suo
+*.sw?

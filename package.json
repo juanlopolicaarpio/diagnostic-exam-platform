@@ -1,0 +1,42 @@
+{
+  "name": "diagnostic-exam-platform",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/assert-svg-rendering-nondestructive.mjs && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "npm run test:math-patterns && npm run test:import && npm run test:edge",
+    "test:math-patterns": "node scripts/test-math-patterns.mjs",
+    "test:import": "node scripts/test-question-import.mjs",
+    "test:edge": "deno test --allow-net supabase/functions/_shared/",
+    "test:scoring": "deno test --allow-net supabase/functions/_shared/scoring-engine.test.ts",
+    "test:watch": "deno test --allow-net --watch supabase/functions/_shared/",
+    "audit:render": "node scripts/audit-rendered-math.mjs"
+  },
+  "dependencies": {
+    "docx": "^9.7.1",
+    "katex": "^0.16.46",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-latex-next": "^3.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "vite": "^8.0.10"
+  },
+  "description": "Admin, authoring, AI generation, delivery, and scoring system for a timed multi-subject diagnostic exam platform.",
+  "license": "SEE LICENSE IN LICENSE"
+}
