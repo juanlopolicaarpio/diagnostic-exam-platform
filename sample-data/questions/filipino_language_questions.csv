@@ -1,0 +1,17 @@
+subject,topic,subtopic,difficulty_level,status,source_school,correct_answer,question_text,choice_a,choice_b,choice_c,choice_d
+Filipino Language,Gramatika,Pandiwa at Aspekto,easy,draft,AI Generated,b,"Anong aspekto ng pandiwa ang ginamit sa pangungusap?
+
+""Naglilinis si Ana ng bakuran.""",Perpektibo (naganap na),Imperpektibo (nagaganap),Kontemplatibo (magaganap pa),Pawatas
+Filipino Language,Gramatika,Pandiwa at Aspekto,medium,draft,AI Generated,c,"Alin ang tamang anyo ng pandiwa para sa pangungusap?
+
+""Bukas, ______ kami ng bagong aklat sa aklatan.""",humihiram,humiram,hihiram,nakahiram
+Filipino Language,Gramatika,Pang-ugnay,medium,draft,AI Generated,a,"Alin ang tamang pang-ugnay para sa pangungusap?
+
+""Hindi siya nakapasok ______ malakas ang ulan.""",dahil,upang,ngunit,bagaman
+Filipino Language,Gramatika,Pang-ugnay,hard,draft,AI Generated,d,"Alin ang tamang pang-ugnay na nagpapakita ng pagsalungat?
+
+""Maaga siyang umalis, ______ hindi pa rin siya nakahabol sa unang bus.""",kaya,sapagkat,kung kaya't,ngunit
+Filipino Language,Talasalitaan,Kahulugan sa Pangungusap,easy,draft,AI Generated,b,"Ano ang kahulugan ng salitang nakasalungguhit?
+
+""Matiyaga ang mag-aaral sa pag-aaral kahit mahirap ang aralin.""",Mabilis,Mapagpursige,Mapagbiro,Maingay
+Filipino Language,Talasalitaan,Kahulugan sa Pangungusap,medium,draft,AI Generated,c,"Ano ang kahulugan ng idyomang ""makitid ang isip""?",Matalino at mapag-isip,Mabilis magdesisyon,Mahirap tumanggap ng bagong ideya,Palaging nakalimot
